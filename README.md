@@ -117,7 +117,7 @@ optionElement.textContent = option;
 Add the newly created option to the dropdown menu.
 Fill in the blanks:
 ```javascript
-dropdown.appendChild('optionElement');
+dropdown.appendChild(optionElement);
 ```
 🗝️ Hint: You want to append the newly created option element to the dropdown element.
 
@@ -141,7 +141,7 @@ const output = document.getElementById('output');
 Create a new paragraph element and add it to the "output" div to show the user's selection.
 Fill in the blank:
 ```javascript
-output.appendChild('newEntry');
+output.appendChild(newEntry);
 ```
 🗝️ Hint: Use `appendChild(x)` to add x to the element. 
 
