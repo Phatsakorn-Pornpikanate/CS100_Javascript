@@ -33,9 +33,9 @@
 
                     options.forEach(option => {
                         const optionElement = document.createElement('option');
-                        optionElement.value = option
+                        optionElement.value = option;
                         optionElement.textContent = option;
-                        dropdown.appendChild('optionElement');
+                        dropdown.appendChild(optionElement);
                     });
                 })
                 .catch(error => console.error('Error loading options:', error));
@@ -52,7 +52,7 @@
                 const newEntry = document.createElement('p');
                 newEntry.textContent = `You selected: ${selectedOption}`;
                 // Append the newEntry as a child of the output element
-                output.appendChild('newEntry');
+                output.appendChild(newEntry);
             }
         }
 
